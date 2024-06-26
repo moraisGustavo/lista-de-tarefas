@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+html,
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+    background-color: #cfcfcf;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+svg {
+    width: 25px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 680px;
+    margin: 10px auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #000000c1
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    width: 600px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 16px;
+    border: 1px solid #808080;
+}
+
+button {
+    background-color: #599494;
+    border: none;
+    border-radius: 16px;
+    padding: 12px;
+    color: #FFF;
+    transition: background-color .3s ease;
+}
+
+button:hover {
+    background-color: #3c6565;
+    cursor: pointer;
+}
+
+ul {
+    width: 600px;
+
+}
+
+li {
+    border: 1px solid #80808063;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius: 16px;
+    transition: border .2s ease;
+    margin-bottom: 10px;
+}
+
+li:hover{
+    border: 1px solid #3a7d7d;
+    color: #3a7d7d;
+    cursor: pointer;
+}
+
+.remove{
+    background-color: #a52a2ab1;
+    transition:  background-color .3s ease;
+}
+
+.remove:hover{
+    background-color: #a52a2a;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 30%;
+}
+
+.completed:hover{
+    opacity: 70%;
+}
